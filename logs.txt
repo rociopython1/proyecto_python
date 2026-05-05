@@ -1,0 +1,6 @@
+El nombre del cliente no puede estar vacío
+El nombre del cliente no puede estar vacío
+El nombre del cliente no puede estar vacío
+El correo del cliente no puede estar vacío
+El nombre del cliente no puede estar vacío
+El correo del cliente no puede estar vacío
