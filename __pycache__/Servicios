@@ -1,0 +1,51 @@
+from abc import ABC, abstractmethod
+
+# 1. Clase Abstracta Servicio (Requerimiento [cite: 23])
+class Servicio(ABC):
+    def __init__(self, nombre_servicio, costo_base):
+        self._nombre_servicio = nombre_servicio  # Encapsulamiento
+        self._costo_base = costo_base
+
+    @abstractmethod
+    def describir_servicio(self):
+        """Método abstracto para implementar polimorfismo """
+        pass
+
+    @abstractmethod
+    def calcular_costo(self, cantidad, descuento=0, impuesto=0.19):
+        """
+        Método con parámetros opcionales para simular sobrecarga [cite: 26]
+        """
+        pass
+
+# 2. Clases Derivadas (Herencia y Polimorfismo )
+
+class ReservaSala(Servicio):
+    def describir_servicio(self):
+        return f"Servicio: {self._nombre_servicio} - Reserva de espacios físicos."
+
+    def calcular_costo(self, horas, descuento=0, impuesto=0.19):
+        # Lógica específica: Costo por horas
+        total_base = self._costo_base * horas
+        total_con_descuento = total_base - (total_base * descuento)
+        return total_con_descuento * (1 + impuesto)
+
+class AlquilerEquipo(Servicio):
+    def describir_servicio(self):
+        return f"Servicio: {self._nombre_servicio} - Alquiler de hardware y periféricos."
+
+    def calcular_costo(self, dias, descuento=0, impuesto=0.19):
+        # Lógica específica: Costo por días
+        total_base = self._costo_base * dias
+        total_con_descuento = total_base - (total_base * descuento)
+        return total_con_descuento * (1 + impuesto)
+
+class AsesoriaEspecializada(Servicio):
+    def describir_servicio(self):
+        return f"Servicio: {self._nombre_servicio} - Consultoría técnica profesional."
+
+    def calcular_costo(self, sesiones, descuento=0, impuesto=0.19):
+        # Lógica específica: Costo por número de sesiones
+        total_base = self._costo_base * sesiones
+        total_con_descuento = total_base - (total_base * descuento)
+        return total_con_descuento * (1 + impuesto)
