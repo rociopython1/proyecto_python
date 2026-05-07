@@ -6,3 +6,9 @@ El nombre del cliente no puede estar vac�o
 El correo del cliente no puede estar vac�o
 El nombre del cliente no es v�lido
 El correo del cliente no es v�lido
+[2026-05-07 17:40:59] [ERROR] [Modulo: clientes] - El nombre del cliente no es válido
+[2026-05-07 17:40:59] [ERROR] [Modulo: clientes] - El correo del cliente no es válido
+[2026-05-07 17:40:59] [ERROR] [Modulo: clientes] - El teléfono del cliente no es válido
+[2026-05-07 18:08:58] [ERROR] [Modulo: clientes] - El nombre del cliente no es válido
+[2026-05-07 18:08:58] [ERROR] [Modulo: clientes] - El correo del cliente no es válido
+[2026-05-07 18:08:58] [ERROR] [Modulo: clientes] - El teléfono del cliente no es válido
