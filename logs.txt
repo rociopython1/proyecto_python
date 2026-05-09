@@ -1,14 +1,20 @@
-El nombre del cliente no puede estar vac�o
-El nombre del cliente no puede estar vac�o
-El nombre del cliente no puede estar vac�o
-El correo del cliente no puede estar vac�o
-El nombre del cliente no puede estar vac�o
-El correo del cliente no puede estar vac�o
-El nombre del cliente no es v�lido
-El correo del cliente no es v�lido
-[2026-05-07 17:40:59] [ERROR] [Modulo: clientes] - El nombre del cliente no es válido
-[2026-05-07 17:40:59] [ERROR] [Modulo: clientes] - El correo del cliente no es válido
-[2026-05-07 17:40:59] [ERROR] [Modulo: clientes] - El teléfono del cliente no es válido
-[2026-05-07 18:08:58] [ERROR] [Modulo: clientes] - El nombre del cliente no es válido
-[2026-05-07 18:08:58] [ERROR] [Modulo: clientes] - El correo del cliente no es válido
-[2026-05-07 18:08:58] [ERROR] [Modulo: clientes] - El teléfono del cliente no es válido
+El nombre del cliente no puede estar vacío
+El nombre del cliente no puede estar vacío
+El nombre del cliente no puede estar vacío
+El correo del cliente no puede estar vacío
+El nombre del cliente no puede estar vacío
+El correo del cliente no puede estar vacío
+El nombre del cliente no es válido
+El correo del cliente no es válido
+[2026-05-07 17:40:59] [ERROR] [Modulo: clientes] - El nombre del cliente no es vÃ¡lido
+[2026-05-07 17:40:59] [ERROR] [Modulo: clientes] - El correo del cliente no es vÃ¡lido
+[2026-05-07 17:40:59] [ERROR] [Modulo: clientes] - El telÃ©fono del cliente no es vÃ¡lido
+[2026-05-07 18:08:58] [ERROR] [Modulo: clientes] - El nombre del cliente no es vÃ¡lido
+[2026-05-07 18:08:58] [ERROR] [Modulo: clientes] - El correo del cliente no es vÃ¡lido
+[2026-05-07 18:08:58] [ERROR] [Modulo: clientes] - El telÃ©fono del cliente no es vÃ¡lido
+[2026-05-08 20:39:03] [INFO] [Modulo: reservas] - Reserva iniciada para el cliente: Cliente
+[2026-05-08 20:39:03] [INFO] [Modulo: reservas] - Reserva de Cliente ha sido CONFIRMADA.
+[2026-05-08 20:39:03] [INFO] [Modulo: reservas] - Reserva de Cliente PROCESADA con éxito.
+[2026-05-08 20:39:03] [WARNING] [Modulo: reservas] - Fallo al cancelar reserva: Imposible cancelar una reserva que ya fue procesada.
+[2026-05-08 20:39:03] [INFO] [Modulo: reservas] - Reserva iniciada para el cliente: Cliente
+[2026-05-08 20:39:03] [ERROR] [Modulo: reservas] - No se puede procesar una reserva en estado 'Pendiente'. Debe confirmarse primero.
