@@ -1,11 +1,11 @@
-El nombre del cliente no puede estar vacío
-El nombre del cliente no puede estar vacío
-El nombre del cliente no puede estar vacío
-El correo del cliente no puede estar vacío
-El nombre del cliente no puede estar vacío
-El correo del cliente no puede estar vacío
-El nombre del cliente no es válido
-El correo del cliente no es válido
+El nombre del cliente no puede estar vacï¿½o
+El nombre del cliente no puede estar vacï¿½o
+El nombre del cliente no puede estar vacï¿½o
+El correo del cliente no puede estar vacï¿½o
+El nombre del cliente no puede estar vacï¿½o
+El correo del cliente no puede estar vacï¿½o
+El nombre del cliente no es vï¿½lido
+El correo del cliente no es vï¿½lido
 [2026-05-07 17:40:59] [ERROR] [Modulo: clientes] - El nombre del cliente no es vÃ¡lido
 [2026-05-07 17:40:59] [ERROR] [Modulo: clientes] - El correo del cliente no es vÃ¡lido
 [2026-05-07 17:40:59] [ERROR] [Modulo: clientes] - El telÃ©fono del cliente no es vÃ¡lido
